@@ -78,14 +78,14 @@ Add the dependency.
 **`build.gradle.kts` (Kotlin DSL)**
 ```kotlin
 dependencies {
-    implementation("com.github.slaviboy:iOSGlassNavigation:1.0.0")
+    implementation("com.github.slaviboy:iOSGlassNavigation:1.0.1")
 }
 ```
 
 **`build.gradle` (Groovy DSL)**
 ```groovy
 dependencies {
-    implementation 'com.github.slaviboy:iOSGlassNavigation:1.0.0'
+    implementation 'com.github.slaviboy:iOSGlassNavigation:1.0.1'
 }
 ```
 
