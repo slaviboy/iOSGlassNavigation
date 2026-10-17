@@ -8,9 +8,20 @@ follows your finger and magnifies the tab under it. Release to select. Every iOS
 changes Liquid Glass is exposed: Clear/Tinted, Reduce Transparency, Increase Contrast and
 Reduce Motion, plus fine-grained optics.
 
-| Light glass | Lens while dragging | Tinted (blue) | Adaptive dark |
-|---|---|---|---|
-| ![](docs/images/light.png) | ![](docs/images/lens.png) | ![](docs/images/tinted.png) | ![](docs/images/dark.png) |
+<table>
+  <tr>
+    <th width="25%">Light glass</th>
+    <th width="25%">Lens while dragging</th>
+    <th width="25%">Tinted (blue)</th>
+    <th width="25%">Adaptive dark</th>
+  </tr>
+  <tr>
+    <td width="25%"><img src="docs/images/light.png" width="200" alt="Light glass"></td>
+    <td width="25%"><img src="docs/images/lens.png" width="200" alt="Lens while dragging"></td>
+    <td width="25%"><img src="docs/images/tinted.png" width="200" alt="Tinted (blue)"></td>
+    <td width="25%"><img src="docs/images/dark.png" width="200" alt="Adaptive dark"></td>
+  </tr>
+</table>
 
 - **`:liquidglass`**: the library. No Material dependency; it uses only `androidx.compose.foundation`/`ui`.
 - **`:app`**: a demo with procedural colorful content, a live settings panel for every parameter, and a listener log.
