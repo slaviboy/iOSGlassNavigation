@@ -1,0 +1,30 @@
+iOS Liquid Glass Navigation for Android
+Copyright (C) 2022 Stanislav Georgiev
+https://github.com/slaviboy
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Acknowledgements
+----------------
+
+* Liquidum (https://github.com/mohamedalsamrai/liquidum), MIT License.
+  The optical and physical constants of the iOS 26 tab bar (spring parameters, bezel and
+  refraction depths, rim matrices, adaptive light/dark thresholds, face mapping formulas) used in
+  liquidglass/src/main/java/com/slaviboy/liquidglass/config/GlassConstants.kt and
+  glass/GlassMaterial.kt were measured and published by the Liquidum project.
+
+* AndroidLiquidGlass / Backdrop by Kyant (https://github.com/Kyant0/AndroidLiquidGlass),
+  Apache License 2.0. The general technique of recording a backdrop into a GraphicsLayer and
+  sampling it from glass elements, and the idea of an accent-colored copy of the tab row that is
+  only visible through the lens, were inspired by this project. No source code was copied.
+
+* Rounded rectangle signed distance function by Inigo Quilez
+  (https://iquilezles.org/articles/distfunctions2d/), MIT License.
+
+* Snell's-law refraction profiles described in "Liquid Glass in the Browser" by kube.io
+  (https://kube.io/blog/liquid-glass-css-svg/).
+
+* Demo app icons are built from Material Icons path data (Apache License 2.0).
+
+"Liquid Glass", "iOS" and "UIKit" are trademarks of Apple Inc. This project is not affiliated with,
+endorsed by or sponsored by Apple Inc., and contains no Apple assets.
